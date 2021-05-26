@@ -81,6 +81,12 @@ Rio <- read_municipality( code_muni = 3304557, year=2010 )
 ggplot(data3) + geom_sf(data=Rio)+geom_point(aes(x = longitude, y = latitude, colour=linha), size = 1) + 
   theme(legend.position="bottom")
 
+# Base Final
+
+basefinal <- data4 %>% select(Identificador = ordem, Velocidade = vmkm)
+
+save(data, data2,data3,data4,Rio, basefinal, file = "bases_SMTR.RData")
+
 
 
   

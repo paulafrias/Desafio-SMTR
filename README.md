@@ -10,7 +10,7 @@ O desafio foi feito em R e todos os comandos estão comentados no script.
 
 Após fazer a requisição dos dados e guardar no meu ambiente de trabalho, fiz uma sumarização para saber quantos códigos únicos de ônibus tinham. 
 Ao perceber que alguns onibus só apareciam uma vez ou em alguns casos o ônibus se repetia mas a distância para garagem permanecia a mesma, ou seja, estava em repouso, decidi tirar esses casos da base. 
-Para limpar a base dentro dessa segunda condição eu ordenei pelo identificador do ônibus e criei uma variável com a distancia para garagem da linha anterior. Após isso, fiz a diferença da distancia e dessa nova variável para encontrar as diferenças que davam 0, ou seja, aquele ônibus estava com a mesma distância do ônibus da observação anterior. Após esse passo eu retirei os ônibus que estava com apenas uma observação. Após essas transformações sobraram 56 códigos únicos. 
+Para limpar a base dentro dessa segunda condição eu ordenei pelo identificador do ônibus e criei uma variável com a distancia para garagem da observação anterior. Após isso, fiz a diferença da distancia e dessa nova variável para encontrar as diferenças que davam 0, ou seja, aquele ônibus estava com a mesma distância do ônibus da observação anterior. Após esse passo eu retirei os ônibus que estava com apenas uma observação. Após essas transformações sobraram 56 códigos únicos. 
 
 
 # Conversão do tempo
